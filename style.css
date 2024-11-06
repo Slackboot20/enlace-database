@@ -1,0 +1,219 @@
+/* Estilo general del cuerpo */
+/* Estilo general del cuerpo */
+body {
+  background-image: url('https://idealjoyeros.com/wp-content/uploads/Hope-Diamond.jpg');
+  background-size: cover; /* Cubre toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-attachment: fixed; /* Fija la imagen al fondo */
+  font-family: 'Georgia', serif; /* Fuente clásica */
+  color: #333333; /* Color de texto oscuro */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+/* Estilo del encabezado */
+header {
+  background-color: #1c1c1c; /* Negro para contraste elegante */
+  padding: 15px;
+  font-size: 18px;
+  color: #f4f4f4;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+  margin: 0 20px;
+}
+
+header a {
+  color: #d4af37; /* Dorado para enlaces */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #b8860b; /* Dorado oscuro */
+}
+
+/* Estilo de los títulos */
+h1, h2 {
+  font-size: 36px;
+  color: #b8860b; /* Dorado oscuro */
+  text-shadow: 1px 1px #333333; /* Sombras suaves */
+  font-family: 'Georgia', serif;
+}
+
+/* Estilo del formulario */
+.creararma, .crearcategory {
+  background-color: #ffffff; /* Fondo blanco para formularios */
+  border: 2px solid #d4af37; /* Borde dorado */
+  padding: 25px;
+  margin: 20px auto;
+  width: 70%;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333333;
+  font-weight: bold;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  border: 1px solid #b8860b; /* Borde dorado suave */
+  background-color: #f5f5f5;
+  color: #333333;
+  border-radius: 4px;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Botones */
+button {
+  background-color: #d4af37; /* Dorado */
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #b8860b; /* Dorado más oscuro */
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Estilo de las tarjetas de productos */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #d4af37;
+  margin: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-body {
+  background-color: #f5f5f5;
+  color: #333333;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #b8860b;
+  text-shadow: 1px 1px #333333;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555555;
+}
+
+/* Estilo para las imágenes de las armas */
+.card-img-top {
+  border-bottom: 1px solid #d4af37;
+}
+
+/* Sección de categorías */
+section {
+  margin-top: 40px;
+  padding: 25px;
+  border: 2px solid #d4af37;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+a {
+  color: #b8860b;
+}
+
+a:hover {
+  color: #8b6914; /* Tono dorado más oscuro */
+}
+
+/* Contenedor de productos */
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#container li {
+  margin: 10px;
+}
+
+/* Estilo para la barra de navegación */
+#navegacion {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(28, 28, 28, 0.9); /* Negro semi-transparente */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid #d4af37;
+}
+
+/* Estilo para los enlaces de navegación */
+#navegacion ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navegacion li {
+  margin: 0 20px;
+}
+
+#navegacion a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+#navegacion a:hover {
+  background-color: #8b6914;
+}
+
+body {
+  padding-top: 70px; /* Espacio para la barra de navegación fija */
+}

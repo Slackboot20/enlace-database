@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Armas Terraria</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+
+  <body style="background-image: url('https://idealjoyeros.com/wp-content/uploads/Hope-Diamond.jpg');">
+      
+    
+    <header id="navegacion" class="navbar">
+        
+    </header>
+
+    <section id="encabezado">
+        <h1>Joyeria</h1>
+        <div class="creararma">
+          <h2>Crea nueva joya</h2>
+
+          <label for="product_code">codigo producto:</label>
+          <input id="product_code" type="text">
+
+          <label for="description">Descripcion:</label>
+          <input id="description" type="text">
+
+          <label for="initial_price">Precio inicial:</label>
+          <input id="initial_price" type="number">
+
+          <label for="weight">peso</label>
+          <input id="weight" type="number">
+
+          <label for="material_id">material:</label>
+          <select name="material_id" id="material_id">
+          </select>
+
+          <button  id="saveButton" onclick="sendForm()"> Guardar</button>
+        </div>
+
+        <div class="crearcategory">
+          <h2>Crea nuevo material</h2>
+
+          <label for="name">Nombre:</label>
+          <input id="name" type="text">
+
+          <label for="descriptioncategory">Descripcion:</label>
+          <input id="descriptioncategory" type="text">
+
+          <label for="imanumbergecategory">Imagen:</label>
+          <input id="imanumbergecategory" type="text">
+
+          <button  id="saveButtonCategory" onclick="sendFormCategory()"> Guardar</button>
+
+        </div>
+    </section>
+    
+    <div id="container">
+      
+    </div>
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </body>
+</html>
